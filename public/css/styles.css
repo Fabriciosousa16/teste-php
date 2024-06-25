@@ -1,0 +1,125 @@
+body {
+  background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-content {
+  margin-bottom: 60px;
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+
+.main-footer {
+  flex-shrink: 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  text-align: center;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+  height: 50px;
+}
+
+/* Select */
+
+.select2-container--default .select2-selection--multiple {
+  background-color: white;
+  border: 1px solid #aaa;
+  cursor: text;
+  padding-bottom: 13px;
+  padding-right: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.select2-container--default .select2-selection--single {
+  height: 38px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 40px;
+  color: #444;
+}
+
+/* navegação */
+
+.navbar {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-brand {
+  color: #000;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.dropdown-item:hover,
+.dropdown-item:hover {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* CARD */
+
+.card {
+  background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.card-text:last-child {
+  margin-bottom: 0px;
+  font-size: x-large;
+}
+
+/* Ranking */
+.ranking-table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ranking-table th,
+.ranking-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.ranking-table th {
+  background-color: #f2f2f2;
+}
